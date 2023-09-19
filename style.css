@@ -1,0 +1,19 @@
+/* index.html styles */
+.recipeLink {
+  font-size: 24px;
+  text-align: center;
+  color: gray;
+}
+
+.header {
+  font-weight: 900;
+  background-color: aliceblue;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+.text.burger {
+  font-size: 24px;
+}
