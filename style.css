@@ -2,18 +2,31 @@
 .recipeLink {
   font-size: 24px;
   text-align: center;
-  color: gray;
+  color: rgb(201, 41, 41);
 }
 
 .header {
   font-weight: 900;
   background-color: aliceblue;
+
+  width: 50%;
+  text-align: center;
+  margin: auto;
+
+  padding: 12px;
 }
 
 .text {
   font-family: sans-serif;
 }
 
-.text.burger {
-  font-size: 24px;
+.recipeLink.text {
+  display: inline-block;
+  text-align: center;
+  background-color: gray;
+  height: 200px;
+  width: 30%;
+  padding: 12px;
+  padding-top: 162px;
+  margin: 5px;
 }
