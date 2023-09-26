@@ -1,32 +1,45 @@
 /* index.html styles */
-.recipeLink {
-  font-size: 24px;
-  text-align: center;
-  color: rgb(201, 41, 41);
+.text {
+  font-family: sans-serif;
 }
 
 .header {
   font-weight: 900;
   background-color: aliceblue;
 
-  width: 50%;
   text-align: center;
   margin: auto;
 
-  padding: 12px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin: 12px 0px;
 }
 
-.text {
-  font-family: sans-serif;
+/* Container & Links*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Adjust the number of columns as needed */
+  gap: 10px; /* Adjust the gap between links */
 }
 
-.recipeLink.text {
-  display: inline-block;
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  background-color: gray;
-  height: 200px;
-  width: 30%;
-  padding: 12px;
-  padding-top: 162px;
-  margin: 5px;
+  padding: 10px; /* Add padding to create a larger clickable area */
+  background-color: #efefef; /* Set the background color of the clickable area */
+
+  border-radius: 8px; /* Optionally, round the corners */
+  text-decoration: none; /* Remove the default underline for links */
+  color: #333; /* Set the text color for the link */
+  color: rgb(201, 41, 41);
+  font-size: 24px;
+}
+
+a:hover {
+  background-color: #787272;
 }
