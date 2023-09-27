@@ -18,6 +18,8 @@ h1 {
   border: 3px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: 75px;
 }
 .text.list {
   margin: 24px 0px -12px 0px;
