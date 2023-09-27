@@ -33,7 +33,11 @@ a {
   padding: 10px; /* Add padding to create a larger clickable area */
   background-color: #efefef; /* Set the background color of the clickable area */
 
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(255, 0, 0, 0.175);
   border-radius: 8px; /* Optionally, round the corners */
+
   text-decoration: none; /* Remove the default underline for links */
   color: #333; /* Set the text color for the link */
   color: rgb(201, 41, 41);
